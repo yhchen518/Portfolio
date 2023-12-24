@@ -1,0 +1,68 @@
+.gameBoard {
+	height: 100vh;
+	position: relative;
+	background-color: black;
+}
+
+#cardsGame {
+	margin: 0;
+	position: absolute;
+	width: 75vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #025684;
+	text-align: center;
+	color: #ffff00;
+	border: 3px solid #93e8ff;
+}
+
+#gameFinish {
+	margin: 0;
+	padding: 1vh;
+	position: absolute;
+	width: 75vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #025684;
+	text-align: center;
+	color: #ffff00;
+	border: 3px solid #93e8ff;
+}
+
+.cards {
+	font-size: 3rem;
+	text-align: center;
+	width: 4vw;
+	height: 10vh;
+	padding: 1vh;
+}
+
+.difficulty-btn {
+	display: inline-block;
+	width: 12vw;
+	margin: 0 2vw 0 2vw;
+	padding: 1vh 1vw 1vh 1vw;
+	border-radius: 5%;
+	color: #000000;
+	font-size: 1.5rem;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+.difficulty-btn:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+.difficulty-btn#easy {
+	background-color: #22ff61;
+}
+
+.difficulty-btn#medium {
+	background-color: #ffab00;
+}
+
+.difficulty-btn#hard {
+	background-color: #f7364b;
+}
