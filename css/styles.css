@@ -6099,7 +6099,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #04334c !important; /* #f6f2eb */
+  background-color: #f6f2eb !important; 
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10238,7 +10238,7 @@ section.resume-section h2{
   }
 }
 section.resume-section#about {
-  background: linear-gradient(to bottom, rgb(82 104 117 / 80%) 0%, rgb(32 43 70 / 80%) 100%), url("../assets/img/bg-about.jpg");
+  background: linear-gradient(to bottom, rgb(82 104 117 / 80%) 0%, rgb(32 43 70 / 80%) 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
